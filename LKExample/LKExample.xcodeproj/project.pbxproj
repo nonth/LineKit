@@ -147,12 +147,12 @@
 			isa = PBXGroup;
 			children = (
 				012770A01AD1081A00FE8F36 /* LKActivityIcon-iOS6.png */,
-				012770A11AD1081A00FE8F36 /* LKActivityIcon-iOS8.png */,
-				012770A21AD1081A00FE8F36 /* LKActivityIcon-iOS8@2x.png */,
-				012770A31AD1081A00FE8F36 /* LKActivityIcon-iOS7@2x.png */,
-				012770A41AD1081A00FE8F36 /* LKActivityIcon-iOS8@3x.png */,
 				012770A51AD1081A00FE8F36 /* LKActivityIcon-iOS6@2x.png */,
 				012770A61AD1081A00FE8F36 /* LKActivityIcon-iOS7.png */,
+				012770A31AD1081A00FE8F36 /* LKActivityIcon-iOS7@2x.png */,
+				012770A11AD1081A00FE8F36 /* LKActivityIcon-iOS8.png */,
+				012770A21AD1081A00FE8F36 /* LKActivityIcon-iOS8@2x.png */,
+				012770A41AD1081A00FE8F36 /* LKActivityIcon-iOS8@3x.png */,
 			);
 			path = images;
 			sourceTree = "<group>";

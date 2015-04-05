@@ -48,7 +48,8 @@
 - (UIImage *)activityImage {
     if (floor(NSFoundationVersionNumber) <= NSFoundationVersionNumber_iOS_6_1) {
         return [UIImage imageNamed:@"LKActivityIcon-iOS6"];
-    } else if(floor(NSFoundationVersionNumber) <= NSFoundationVersionNumber_iOS_7_1){
+    } else if(floor(NSFoundationVersionNumber) >= NSFoundationVersionNumber_iOS_7_0 &&
+              floor(NSFoundationVersionNumber) <= NSFoundationVersionNumber_iOS_7_1){
         return [UIImage imageNamed:@"LKActivityIcon-iOS7"];
     } else {
         return [UIImage imageNamed:@"LKActivityIcon-iOS8"];
