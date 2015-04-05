@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		012770A71AD1081A00FE8F36 /* LKActivityIcon-iOS6.png in Resources */ = {isa = PBXBuildFile; fileRef = 012770A01AD1081A00FE8F36 /* LKActivityIcon-iOS6.png */; };
+		012770A81AD1081A00FE8F36 /* LKActivityIcon-iOS8.png in Resources */ = {isa = PBXBuildFile; fileRef = 012770A11AD1081A00FE8F36 /* LKActivityIcon-iOS8.png */; };
+		012770A91AD1081A00FE8F36 /* LKActivityIcon-iOS8@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 012770A21AD1081A00FE8F36 /* LKActivityIcon-iOS8@2x.png */; };
+		012770AA1AD1081A00FE8F36 /* LKActivityIcon-iOS7@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 012770A31AD1081A00FE8F36 /* LKActivityIcon-iOS7@2x.png */; };
+		012770AB1AD1081A00FE8F36 /* LKActivityIcon-iOS8@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 012770A41AD1081A00FE8F36 /* LKActivityIcon-iOS8@3x.png */; };
+		012770AC1AD1081A00FE8F36 /* LKActivityIcon-iOS6@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 012770A51AD1081A00FE8F36 /* LKActivityIcon-iOS6@2x.png */; };
+		012770AD1AD1081A00FE8F36 /* LKActivityIcon-iOS7.png in Resources */ = {isa = PBXBuildFile; fileRef = 012770A61AD1081A00FE8F36 /* LKActivityIcon-iOS7.png */; };
 		E307422E164A552500AACDC2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E307422D164A552500AACDC2 /* UIKit.framework */; };
 		E3074230164A552500AACDC2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E307422F164A552500AACDC2 /* Foundation.framework */; };
 		E3074232164A552500AACDC2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3074231164A552500AACDC2 /* CoreGraphics.framework */; };
@@ -19,14 +26,17 @@
 		E3074247164A552500AACDC2 /* LKViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E3074246164A552500AACDC2 /* LKViewController.m */; };
 		E307424A164A552500AACDC2 /* LKViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E3074248164A552500AACDC2 /* LKViewController.xib */; };
 		E37BC657164A584C0009687E /* Line.m in Sources */ = {isa = PBXBuildFile; fileRef = E37BC656164A584C0009687E /* Line.m */; };
-		E3CEED6C19C4184600B3E818 /* LKActivity-Flat.png in Resources */ = {isa = PBXBuildFile; fileRef = E3CEED6819C4184600B3E818 /* LKActivity-Flat.png */; };
-		E3CEED6D19C4184600B3E818 /* LKActivity-Flat@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E3CEED6919C4184600B3E818 /* LKActivity-Flat@2x.png */; };
-		E3CEED6E19C4184600B3E818 /* LKActivity.png in Resources */ = {isa = PBXBuildFile; fileRef = E3CEED6A19C4184600B3E818 /* LKActivity.png */; };
-		E3CEED6F19C4184600B3E818 /* LKActivity@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E3CEED6B19C4184600B3E818 /* LKActivity@2x.png */; };
 		E3FA940B19927EDC0096C90B /* LKLineActivity.m in Sources */ = {isa = PBXBuildFile; fileRef = E3FA940A19927EDC0096C90B /* LKLineActivity.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		012770A01AD1081A00FE8F36 /* LKActivityIcon-iOS6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LKActivityIcon-iOS6.png"; sourceTree = "<group>"; };
+		012770A11AD1081A00FE8F36 /* LKActivityIcon-iOS8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LKActivityIcon-iOS8.png"; sourceTree = "<group>"; };
+		012770A21AD1081A00FE8F36 /* LKActivityIcon-iOS8@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LKActivityIcon-iOS8@2x.png"; sourceTree = "<group>"; };
+		012770A31AD1081A00FE8F36 /* LKActivityIcon-iOS7@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LKActivityIcon-iOS7@2x.png"; sourceTree = "<group>"; };
+		012770A41AD1081A00FE8F36 /* LKActivityIcon-iOS8@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LKActivityIcon-iOS8@3x.png"; sourceTree = "<group>"; };
+		012770A51AD1081A00FE8F36 /* LKActivityIcon-iOS6@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LKActivityIcon-iOS6@2x.png"; sourceTree = "<group>"; };
+		012770A61AD1081A00FE8F36 /* LKActivityIcon-iOS7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LKActivityIcon-iOS7.png"; sourceTree = "<group>"; };
 		E3074229164A552500AACDC2 /* LKExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LKExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E307422D164A552500AACDC2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		E307422F164A552500AACDC2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -46,10 +56,6 @@
 		E3074251164A552500AACDC2 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		E37BC655164A584C0009687E /* Line.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Line.h; sourceTree = "<group>"; };
 		E37BC656164A584C0009687E /* Line.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Line.m; sourceTree = "<group>"; };
-		E3CEED6819C4184600B3E818 /* LKActivity-Flat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LKActivity-Flat.png"; sourceTree = "<group>"; };
-		E3CEED6919C4184600B3E818 /* LKActivity-Flat@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LKActivity-Flat@2x.png"; sourceTree = "<group>"; };
-		E3CEED6A19C4184600B3E818 /* LKActivity.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LKActivity.png; sourceTree = "<group>"; };
-		E3CEED6B19C4184600B3E818 /* LKActivity@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LKActivity@2x.png"; sourceTree = "<group>"; };
 		E3FA940919927EDC0096C90B /* LKLineActivity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LKLineActivity.h; sourceTree = "<group>"; };
 		E3FA940A19927EDC0096C90B /* LKLineActivity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LKLineActivity.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -140,10 +146,13 @@
 		E3CEED6719C4184600B3E818 /* images */ = {
 			isa = PBXGroup;
 			children = (
-				E3CEED6819C4184600B3E818 /* LKActivity-Flat.png */,
-				E3CEED6919C4184600B3E818 /* LKActivity-Flat@2x.png */,
-				E3CEED6A19C4184600B3E818 /* LKActivity.png */,
-				E3CEED6B19C4184600B3E818 /* LKActivity@2x.png */,
+				012770A01AD1081A00FE8F36 /* LKActivityIcon-iOS6.png */,
+				012770A11AD1081A00FE8F36 /* LKActivityIcon-iOS8.png */,
+				012770A21AD1081A00FE8F36 /* LKActivityIcon-iOS8@2x.png */,
+				012770A31AD1081A00FE8F36 /* LKActivityIcon-iOS7@2x.png */,
+				012770A41AD1081A00FE8F36 /* LKActivityIcon-iOS8@3x.png */,
+				012770A51AD1081A00FE8F36 /* LKActivityIcon-iOS6@2x.png */,
+				012770A61AD1081A00FE8F36 /* LKActivityIcon-iOS7.png */,
 			);
 			path = images;
 			sourceTree = "<group>";
@@ -205,13 +214,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E3CEED6D19C4184600B3E818 /* LKActivity-Flat@2x.png in Resources */,
 				E3074238164A552500AACDC2 /* InfoPlist.strings in Resources */,
 				E3074240164A552500AACDC2 /* Default.png in Resources */,
-				E3CEED6F19C4184600B3E818 /* LKActivity@2x.png in Resources */,
-				E3CEED6C19C4184600B3E818 /* LKActivity-Flat.png in Resources */,
+				012770A81AD1081A00FE8F36 /* LKActivityIcon-iOS8.png in Resources */,
+				012770AC1AD1081A00FE8F36 /* LKActivityIcon-iOS6@2x.png in Resources */,
+				012770A91AD1081A00FE8F36 /* LKActivityIcon-iOS8@2x.png in Resources */,
+				012770AD1AD1081A00FE8F36 /* LKActivityIcon-iOS7.png in Resources */,
+				012770A71AD1081A00FE8F36 /* LKActivityIcon-iOS6.png in Resources */,
 				E3074242164A552500AACDC2 /* Default@2x.png in Resources */,
-				E3CEED6E19C4184600B3E818 /* LKActivity.png in Resources */,
+				012770AA1AD1081A00FE8F36 /* LKActivityIcon-iOS7@2x.png in Resources */,
+				012770AB1AD1081A00FE8F36 /* LKActivityIcon-iOS8@3x.png in Resources */,
 				E3074244164A552500AACDC2 /* Default-568h@2x.png in Resources */,
 				E307424A164A552500AACDC2 /* LKViewController.xib in Resources */,
 			);

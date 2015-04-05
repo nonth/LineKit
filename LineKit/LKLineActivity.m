@@ -33,6 +33,10 @@
 
 #pragma mark - UIActivity
 
++ (UIActivityCategory)activityCategory {
+    return UIActivityCategoryShare;
+}
+
 - (NSString *)activityType {
   return @"org.dlackty.LKLineActivity";
 }
@@ -42,11 +46,13 @@
 }
 
 - (UIImage *)activityImage {
-  if (NSFoundationVersionNumber > NSFoundationVersionNumber_iOS_6_1) {
-    return [UIImage imageNamed:@"LKActivity-Flat"];
-  } else {
-    return [UIImage imageNamed:@"LKActivity"];
-  }
+    if (floor(NSFoundationVersionNumber) <= NSFoundationVersionNumber_iOS_6_1) {
+        return [UIImage imageNamed:@"LKActivityIcon-iOS6"];
+    } else if(floor(NSFoundationVersionNumber) <= NSFoundationVersionNumber_iOS_7_1){
+        return [UIImage imageNamed:@"LKActivityIcon-iOS7"];
+    } else {
+        return [UIImage imageNamed:@"LKActivityIcon-iOS8"];
+    }
 }
 
 - (BOOL)canPerformWithActivityItems:(NSArray *)activityItems {
